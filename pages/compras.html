@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="./compras.html"><img src="../img/logo-compras.png" alt="" class="header-img logo"></a></li>
+                <li class="sla"><a href="../pages/compras.html"><img src="../img/logo-shop.png" alt="" class="header-img sla"></a></li>
+                <li><a href="#"><img src="../img/logo-atendente.png" alt="" class="header-img"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="allhair-video">
+            <img src="../img/allhair-img1.png"></img>
+        </div>
+        <section class="buy-headphone">
+            <div class="headphone-content">
+                <div class="headphone-images">
+                    <div class="headphone-other-images">
+                        <div class="headphone-image">
+                            <img src="../img/headphone-sidepart.png" alt="">
+                        </div>
+                        <div class="headphone-image">
+                            <img src="../img/headphone-normal.png" alt="">
+                        </div>
+                    </div>
+                    <div class="headphone-main-image">
+                        <img src="../img/headphone-normal.png" alt="">
+                    </div>
+                </div>
+                <div class="description-content" onclick="openDescription()">
+                    <p>Mergulhe em uma nova dimensão com o fone de ouvido Aroma Sync. Além de som de alta qualidade e design moderno com iluminação RGB. </p>
+                    <p>Este headset inovador é capaz de transmitir <span class="texto-degrade">aromas sincronizados com o som</span>, proporcionando uma imersão total em jogos, filmes ou músicas. O conforto das almofadas acolchoadas e o microfone ajustável completam essa experiência única que envolve audição e olfato.</p>
+                </div>
+            </div>
+            <div class="buy-content">
+                <div class="estrelas">
+                    <ul>
+                        <li><img src="../img/UmaEstrela.png" alt=""></li>
+                        <li><img src="../img/UmaEstrela.png" alt=""></li>
+                        <li><img src="../img/UmaEstrela.png" alt=""></li>
+                        <li><img src="../img/UmaEstrela.png" alt=""></li>
+                        <li><img src="../img/MeiaEstrela.png" alt=""></li>
+                        <li>4.5</li>
+                        <li>(547 avaliações)</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <ul>
+                        <li>R$ 115,90 no Pix</li>
+                        <li><span class="line-through">R$ 190,65</span></li>
+                        <li style="color: green;">39%</li>
+                        <li style="color: green;">OFF</li>
+                    </ul>
+                    <ul>
+                        <li>Ou R$ 123,92</li>
+                        <li>em até 3x sem juros</li>
+                        <li style="color: green;">35%</li>
+                        <li style="color: green;">OFF</li>
+                    </ul>
+                    <ul>
+                        <li>Frete Para: </li>
+                        <li>Diadema, São Paulo ></li>
+                        <li><img src="../img/FreteIcon.png" alt=""></li>
+                    </ul>
+                    <p>Frete: <span class="line-through">R$9,99</span> R$0,00></p>
+                    <p><span class="bold">Frete grátis</span> na primeira compra, utilizando o cupom <span class="bold">PRIMEIRACOMPRA</span></p>
+                </div>
+                <div class="cupom">
+                    <p>APLICAR CUPOM</p>
+                    <input type="text" placeholder="Digite seu cupom">
+                </div>
+                <div class="headphone-options">
+                    <ul>
+                        <li><img src="../img/headphone-normal.png" alt=""></li>
+                    </ul>
+                </div>
+                <button class="btn-adicionar">Adicionar ao carrinho</button>
+                <button class="btn-salvar">Salvar como favoritos</button>
+            </div>
+        </section>
+        <section class="allhair-cards">
+            <div class="allhair-card">
+                <img src="../img/allhair-card1.png" alt="">
+                <button>Quero conhecer</button>
+            </div>
+            <div class="allhair-card">
+                <img src="../img/allhair-card3.png" alt="">
+            </div>
+            <div class="allhair-card">
+                <img src="../img/allhair-card2.png" alt="">
+            </div>
+        </section>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="../img/allhair-img1.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="../img/allhair-img2.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="../img/allhair-img3.png" alt="">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <section class="payment-container">
+            <img src="../img/allhair-background.png" alt="" class="allhair-background">
+            <div class="allhair-card">
+                <img src="../img/allhair-card4.png" alt="">
+            </div>
+            <div class="methods">
+                <div class="frete">
+                    <img src="../img/FreteIcon.png" alt="">
+                    <p>Frete Grátis <br> utilizando o cupom <br>
+                    <span class="bold">"PRIMEIRACOMPRA"</span></p>
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="payment-method">
+                    <img src="../img/credit-card-img.png" alt="">
+                    <p>Opcoes de <br> pagamento <br>Pix, boleto e cartao de credito. <br>Aproveite e parcele com facilidade e conveniencia.</p>
+                    <img src="../img/bandeirascartoescredito 1.png" alt="" class="credit-cards">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+</html>
